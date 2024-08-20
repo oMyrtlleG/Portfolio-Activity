@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orano Portfolio</title>
+    <!-- <link rel="stylesheet" href="portfolio.css"> -->
+    <!-- Internal Styling -->
+    <style>
+        body {
+            background-color: azure;
+        }
+
+        div {
+            padding: 1px 10px 1px;
+        }
+        
+        h2 {
+            text-decoration: underline;
+        }
+
+        .self_intro {
+            position: relative;
+            overflow: hidden;
+            padding: 1%;
+            text-align: center;
+        }
+
+        .nav_bar {
+            position: sticky;
+            overflow: hidden;
+            top: 10px;
+            padding: 2%;
+            text-align: center;
+            border-top: 1.5px solid black;
+            border-bottom: 1.5px solid black;
+            background-color: lightcyan;
+        }
+
+        .sections {
+            padding-top: 70px;
+            margin-top: -70px;
+        }
+
+        .option{
+            padding: 20px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .project_cell {
+            padding: 10px 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .thumbnail {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contacts {
+            display: flex;
+        }
+
+        .contact_cell {
+            padding: 0px 10px 0px;
+        }
+
+        .cell2 {
+            padding-left: 50px;
+        }
+
+        a[href] {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Heading Section -->
+    <div id="home" class="self_intro">
+        <img src="images/my-img.JPG" alt="Image of Myrtlle Gem Orano" width="200">
+        <h1 style="margin-bottom: 3px;">MYRTLLE GEM ORAÑO</h1>
+        <p style="font-size: 18px; margin-top:2px;">Computer Science Graduate of 2024</p>
+    </div>
+
+    <!-- Menu Bar Section -->
+    <div class="nav_bar">
+        <a class="option home" href="#home">Home</a>
+        <a class="option experience" href="#experience">Work Experiences</a>
+        <a class="option skills" href="#skills">Skills</a>
+        <a class="option project" href="#project">Projects</a>
+        <a class="option contact" href="#contact">Contact</a>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="overview">
+        <h2>Hello! I am Myrtlle</h2>
+        <p>A dedicated and detail-oriented Computer Science graduate with experience in inventory management systems, seeking an opportunity to further improve my skills in the tech industry. Is ready to start working immediately, and committed to continuous learning and providing exceptional support to the organization's growth.</p>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience" class="sections">
+        <h2>Work Experience</h2>
+        <dl>
+            <dt><strong>Jica Czarraine Loquellano | Part-time Research Aid</strong></dt>
+            <dd>
+                <li>Collected primary and secondary data through surveys, interviews, and research.</li>
+                <li>Utilized statistical software for data analysis and generating descriptive and inferential statistics to support research objectives.</li>
+                <li>Interpreted analytical results helpful in concluding, and making recommendations based on data insights.</li>
+            </dd>
+        </dl>
+        <dl>
+            <dt><strong>DOST 2023 League of Developers Initiative (Project LODI) | Intern</strong></dt>
+            <dd>
+                <li>Transformed user stories into ERDs, wireframes, and process flows, ensuring stakeholder alignment on project requirements and design.</li>
+                <li>Conceptualized, developed, and tested the proposed system's front-end design, ensuring seamless integration and user feedback for iterative improvements.</li>
+                <li>Weekly progress reports are provided to stakeholders to align with project goals, for successful design element implementation in the final product.</li>
+            </dd>
+        </dl>
+        <dl>
+            <dt><strong>Jim Baker Marketing | Data Entry & HR Assistant</strong></dt>
+            <dd>
+                <li>Regularly update stock inventory, conduct audits, coordinate deliveries and shipments, and generate inventory reports for management review and decision-making.</li>
+                <li>Collaborate with HR to manage employee records, organize staff meetings and other HR-related events, and handle employee inquiries while providing company policies and procedures.</li>
+                <li>Provide exceptional support and assistance to the HR team, contributing to a positive work environment.</li>
+            </dd>
+        </dl>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="sections">
+        <h2>Technical Skills</h2>
+        <dl>
+            <dt><strong>Programming Languages</strong></dt>
+            <dd>Python, C, C++, MySQL, PHP, Flutter, Dart, JavaScript, HTML, and CSS</dd>
+        </dl>
+        <dl>
+            <dt><strong>Tools and Software</strong></dt>
+            <dd>Microsoft Office Suite, Figma, GitHub, Canva</dd>
+        </dl>
+    </div>
+
+    <!-- Project Section -->
+    <div id="project" class="sections">
+        <h2>Projects</h2>
+        <div class="projects">
+            <a class="project_cell" href="https://github.com/oMyrtlleG/CMSC-174-Final-Project--Hand-Gestures-.git" target="_blank">
+                <img src="images/project1.png" alt="Image Frame to Command Classification" width="280" height="200">
+                <p><strong>Hand Gestures Detection and Classification</strong></p>
+            </a>
+            <a class="project_cell" href="https://github.com/oMyrtlleG/chicharun.git" target="_blank">
+                <img src="images/project2.jpg" alt="ChichaRun Thumbnail" width="280" height="200">
+                <p><strong>Run! Chicha Run!</strong></p>
+            </a>
+            <a class="project_cell" href="https://drive.google.com/file/d/1bEI92sdsEJkEhW1Eckqr-MTu3OFenVxa/view?usp=drive_link" target="_blank">
+                <img src="images/project3.png" alt="Whack-a-Ghoul Thumbnail" width="350" height="200">
+                <p><strong>Whack-a-Ghoul</strong></p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="sections">
+        <h2>Contact Information</h2>
+        <div class="contacts">
+            <div>
+                <div class="thumbnail cell1">
+                    <img class="contact_cell" src="images/resume.png" alt="Resume Icon" width="25" height="25">
+                    <p class="contact_cell"><strong>Resume</strong>: Check out my resume <a href="https://drive.google.com/file/d/1Com3y-YbDa0-1xdauPTLxkPaRy1MiWCv/view?usp=drive_link" target="_blank">here</a>.</p>    
+                </div>
+                <div class="thumbnail cell1">
+                    <img class="contact_cell" src="images/email.png" alt="Email Icon" width="25" height="25">
+                    <p class="contact_cell"><strong>Email Address</strong>: mlorano@up.edu.ph</p>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail cell2">
+                    <img class="contact_cell" src="images/github-sign.png" alt="Github Icon" width="25" height="25">
+                    <p class="contact_cell"><strong>Github</strong>: <a href="https://github.com/oMyrtlleG" target="_blank">oMyrtlleG</a></p>
+                </div>
+                <div class="thumbnail cell2">
+                    <img class="contact_cell" src="images/linkedin.png" alt="LinkedIn Icon" width="25" height="25">
+                    <p class="contact_cell"><strong>LinkedIn</strong>: <a href="http://linkedin.com/in/myrtlle-gem-orano/" target="_blank">myrtlle-gem-orano/</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
